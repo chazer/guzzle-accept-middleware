@@ -1,0 +1,24 @@
+{
+    "name": "chazer/guzzle-accept-middleware",
+    "type": "library",
+    "description": "Middleware for Guzzle client library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aleksandr Chazov",
+            "email": "develop@chazer.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuzzleHttp\\": "src/"
+        }
+    }
+}
